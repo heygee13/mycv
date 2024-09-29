@@ -1,0 +1,17 @@
+header {
+    background-image: url('D:\Downloads\impOnedrive\OneDrive\Desktop\CV\head.jpeg');
+    background-size: auto;
+    width: auto;
+    height: auto;
+    background-position: top center;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 img {
+    margin-right: 10px; /* Adds some space between the image and your name */
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio">
+    <title>GATHA | Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+        }
+        header {
+            padding: 40px 20px;
+            text-align: center;
+            background-image: url('D:\Downloads\impOnedrive\OneDrive\Desktop\CV\head.jpeg');
+            background-size: auto; /* Ensure the background image covers the entire header */
+            background-position: top center;
+            position: relative;
+            color: white;
+        }
+        /* Profile picture styling */
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: relative;
+            z-index: 2; /* Keeps it in front of the background */
+        }
+        header h1 {
+            margin: 20px 0 10px 0;
+            font-size: 3em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for readability */
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .skills, .projects, .contact {
+            margin-bottom: 60px;
+        }
+        .skills ul, .projects ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .skills ul li, .projects ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 5px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #444;
+            color: #f5f5f5;
+        }
+        .contact input[type="submit"] {
+            background-color: #4CAF50;
+            color: #f5f5f5;
+            cursor: pointer;
+        }
+        .contact input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+        }
+        footer a {
+            color: #f5f5f5;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Profile picture -->
+    <img src="D:/Downloads/impOnedrive/OneDrive/Desktop/CV/me.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>GATHA MUKHOPADHYAY</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="https://gathahere.wixsite.com/gatha">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p style="text-align: center;">I am a passionate developer with a focus on creating impactful projects that solve real-world problems. I am always eager to learn new technologies and improve my skillset. Let's collaborate!</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: C, JAVA, C#, Python, HTML, CSS</li>
+            <li>Frameworks: Unity</li>
+            <!--<li>Tools: Git</li> -->
+            <li>Soft Skills: Communication, Problem-solving, Teamwork</li>
+        </ul>
+    </section>
+
+    <!--<section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Project 1:</strong> Description of project 1 goes here.</li>
+            <li><strong>Project 2:</strong> Description of project 2 goes here.</li>
+            <li><strong>Project 3:</strong> Description of project 3 goes here.</li>
+        </ul>
+    </section>-->
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xkgwlalb" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+</div>
+
+<footer>
+    <p>Connect with me on:</p>
+    <a href="https://github.com/heygee13" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/gatha-mukhopadhyay-49792a233/" target="_blank">LinkedIn</a>
+    <a href="https://forms.gle/Fr8ghF7XsFyZXDEz7" target="_blank">Fill My Google Form</a>
+    <a href="https://gathahere.wixsite.com/gatha" target="_blank">Portfolio</a>
+</footer>
+
+</body>
+</html>
